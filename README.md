@@ -27,7 +27,7 @@ pip install beautifulsoup4
 
 ### Usage
 ```python
-from crunchbase.crunchbase import Crunchbase
+from code.crunchbase import Crunchbase
 
 # Some Crunchbase profiles (both organization and person) to scrape 
 crunchbase_urls = {"Google": "https://www.crunchbase.com/organization/google", "Larry Page": "https://www.crunchbase.com/person/larry-page"}
