@@ -56,3 +56,16 @@ for name, url in crunchbase_urls.items():
     with open('data/crunchbase/demo_crunchbase_data.json', 'w', newline='') as json_file:
         json.dump(crunchbase_data, fp=json_file, indent=3, ensure_ascii=False)
 ```
+### Citation
+```
+@inproceedings{thirupathi2021machine,
+  title = {A Machine Learning Approach to Detect Early Signs of Startup Success},
+  author = {Thirupathi, Abhinav Nadh and Alhanai, Tuka and Ghassemi, Mohammad M},
+  booktitle = {Proceedings of the Second ACM International Conference on AI in Finance},
+  pages = {1--8},
+  year = {2021},
+  publisher = {Association for Computing Machinery},
+  doi = {10.1145/3490354.3494374},
+  series = {ICAIF '21}
+}
+```
